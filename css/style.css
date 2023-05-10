@@ -64,8 +64,32 @@ body{
 }
 
 .barchat{
+    position: relative;
     margin-top: 10rem;
     padding-bottom: 1.5rem;
+}
+
+.hoverbox1{
+    display: none;
+    position: absolute;
+    cursor: grab;
+    bottom: 9.2rem;
+    left: 25%;
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-size: 0.7rem;
+    border-radius: 0.1rem;
+}
+
+.hoverbox2{
+    display: none;
+    position: absolute;
+    bottom: 5.8rem;
+    left: 42%;
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(0, 0%, 100%);
+    font-size: 0.7rem;
+    border-radius: 0.1rem;
 }
 
 .bars{
