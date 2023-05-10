@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0, auto;
+    padding: 20px;
+}
+
+.heading{
+    background-color: hsl(10, 79%, 65%);
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.text{
+    color: hsl(27, 66%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+.text > p{
+    font-size: 0.8rem;
+}
+
+.text > h2{
+    font-size: 1.2rem;
+}
+
+.image > img{
+    height: 2rem;
+}
+
+.hero{
+    background-color: hsl(33, 100%, 98%);
+    margin-top: 0.7rem;
+    border-radius: 0.5rem;
+    padding: 1.4rem 0.8rem;
+}
+
+.barchat{
+    margin-top: 10rem;
+    padding-bottom: 1.5rem;
+}
+
+.bars{
+    position: relative;
+    z-index: 1;
+}
+
+.bar{
+    position: absolute;
+    background-color: hsl(10, 79%, 65%);
+    display: inline-block;
+    border-radius: 0.1rem;
+    width: 10%;
+    bottom: 0;
+}
+
+.bar:first-child{
+    height: 3rem;
+}
+
+.bar:nth-child(2) {
+    height: 5rem;
+    left: 15%;
+}
+
+.bar:nth-child(3) {
+    background-color: hsl(186, 34%, 60%);
+    height: 7.5rem;
+    left: 30%;
+}
+
+.bar:nth-child(4) {
+    height: 4rem;
+    left: 45%;
+}
+
+.bar:nth-child(5) {
+    height: 3.5rem;
+    left: 60%;
+}
+
+.bar:nth-child(6) {
+    height: 6rem;
+    left: 75%;
+}
+
+.bar:nth-child(7) {
+    height: 3.8rem;
+    left: 90%;
+}
+
+.days{
+    position: relative;
+    font-size: 0.55rem;
+    color: hsl(28, 10%, 53%);
+}
+
+.day{
+    position: absolute;
+    padding-block: 0.5rem;
+}
+
+.day:nth-child(1) {
+    left: 1%;
+}
+
+.day:nth-child(2) {
+    left: 17%;
+}
+
+.day:nth-child(3) {
+    left: 31%;
+}
+
+.day:nth-child(4) {
+    left: 47%;
+}
+
+.day:nth-child(5) {
+    left: 63%;
+}
+
+.day:nth-child(6) {
+    left: 77%;
+}
+
+.day:nth-child(7) {
+    left: 92%;
+}
+
+@media screen and (min-width: 50rem) {
+    .container{
+        width: 350px;
+    }
+}
