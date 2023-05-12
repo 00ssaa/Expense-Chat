@@ -73,7 +73,7 @@ body{
     display: none;
     position: absolute;
     bottom: 9.2rem;
-    left: 25%;
+    left: 26%;
     background-color: hsl(25, 47%, 15%);
     color: hsl(0, 0%, 100%);
     font-size: 0.7rem;
@@ -221,5 +221,11 @@ body{
 @media screen and (min-width: 50rem) {
     .container{
         width: 375px;
+    }
+    .hoverbox1{
+        left: 28%;
+    }
+    .hoverbox2{
+        left: 43.5%;
     }
 }
